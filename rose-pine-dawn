@@ -10,30 +10,43 @@
 set default-fg                  "#575279"   # Text
 set default-bg                  "#faf4ed"   # Base
 
-set statusbar-fg                "#9893a5"   # Muted
+set statusbar-fg                "#575279"   # Text
 set statusbar-bg                "#fffaf3"   # Surface
 
-set inputbar-fg                 "#9893a5"   # Muted
+set inputbar-fg                 "#575279"   # Text
 set inputbar-bg                 "#fffaf3"   # Surface
 
-set notification-fg             "#9893a5"   # Muted
+# Notification
+set notification-fg             "#575279"   # Text
 set notification-bg             "#fffaf3"   # Surface
 
-set notification-error-fg       "#9893a5"   # Muted
+set notification-error-fg       "#575279"   # Text
 set notification-error-bg       "#ea9d34"   # Gold
 
-set notification-warning-fg     "#9893a5"   # Muted
+set notification-warning-fg     "#575279"   # Text
 set notification-warning-bg     "#ea9d34"   # Gold
 
+# Selected text highlight
 set highlight-color             "rgba(0xb4, 0x63, 0x7a, 0.2)" # Love
 set highlight-active-color      "rgba(0x90, 0x7a, 0xa9, 0.2)" # Iris
 
-set completion-fg               "#9893a5"   # Muted
+# Completion
+set completion-fg               "#575279"   # Text
 set completion-bg               "#f2e9e1"   # Overlay
+
+set completion-group-fg         "#575279"   # Text
+set completion-group-bg         "#cecacd"   # Highlight High
 
 set completion-highlight-fg     "#d7827e"   # Rose
 set completion-highlight-bg     "#dfdad9"   # Highlight Med
 
+# Index
+set index-fg                    "#575279"   # Text
+set index-bg                    "#f2e9e1"   # Overlay
+set index-active-fg             "#d7827e"   # Rose
+set index-active-bg             "#dfdad9"   # Highlight Med
+
+# Recolor
 set recolor-lightcolor          "#faf4ed"   # Base
 set recolor-darkcolor           "#575279"   # Text
 
