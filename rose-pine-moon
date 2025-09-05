@@ -7,35 +7,48 @@
 # Change 'recolor' and 'recolor-keephue' to true to change
 # the document colors for a more uniform viewing experience.
 
-set default-bg                  "#232136"
-set default-fg                  "#e0def4"
+set default-fg                  "#e0def4"   # Text
+set default-bg                  "#232136"   # Base
 
-set statusbar-fg                "#e0def4"
-set statusbar-bg                "#59546d"
+set statusbar-fg                "#e0def4"   # Text
+set statusbar-bg                "#2a273f"   # Surface
 
-set inputbar-bg                 "#817c9c"
-set inputbar-fg                 "#232136"
+set inputbar-fg                 "#e0def4"   # Text
+set inputbar-bg                 "#2a273f"   # Surface
 
-set notification-bg             "#817c9c"
-set notification-fg             "#232136"
+# Notification
+set notification-fg             "#e0def4"   # Text
+set notification-bg             "#2a273f"   # Surface
 
-set notification-error-bg       "#817c9c"
-set notification-error-fg       "#ea9a97"
+set notification-error-fg       "#e0def4"   # Text
+set notification-error-bg       "#f6c177"   # Gold
 
-set notification-warning-bg     "#817c9c"
-set notification-warning-fg     "#f6c177"
+set notification-warning-fg     "#e0def4"   # Text
+set notification-warning-bg     "#f6c177"   # Gold
 
-set highlight-color             "rgba(0x3e, 0x8f, 0xb0, 0.5)"
-set highlight-active-color      "rgba(0x9c, 0xcf, 0xd8, 0.5)"
+# Selected text highlight
+set highlight-color             "rgba(0xeb, 0x6f, 0x92, 0.2)" # Love
+set highlight-active-color      "rgba(0xc4, 0xa7, 0xe7, 0.2)" # Iris
 
-set completion-bg               "#817c9c"
-set completion-fg               "#9ccfd8"
+# Completion
+set completion-fg               "#e0def4"   # Text
+set completion-bg               "#393552"   # Overlay
 
-set completion-highlight-fg     "#e0def4"
-set completion-highlight-bg     "#9ccfd8"
+set completion-group-fg         "#e0def4"   # Text
+set completion-group-bg         "#56526e"   # Highlight High
 
-set recolor-lightcolor          "#232136"
-set recolor-darkcolor           "#e0def4"
+set completion-highlight-fg     "#ea9a97"   # Rose
+set completion-highlight-bg     "#44415a"   # Highlight Med
+
+# Index
+set index-fg                    "#e0def4"   # Text
+set index-bg                    "#393552"   # Overlay
+set index-active-fg             "#ea9a97"   # Rose
+set index-active-bg             "#44415a"   # Highlight Med
+
+# Recolor
+set recolor-lightcolor          "#232136"   # Base
+set recolor-darkcolor           "#e0def4"   # Text
 
 set recolor                     "false"
 set recolor-keephue             "false"
