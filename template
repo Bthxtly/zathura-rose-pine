@@ -1,0 +1,54 @@
+# https://github.com/rose-pine/rose-pine-theme
+# Soho vibes for Zathura: Rosé Pine {variant}
+#
+# Usage:
+# Copy contents of this file to ~/.config/zathura/zathurarc
+#
+# Change 'recolor' and 'recolor-keephue' to true to change
+# the document colors for a more uniform viewing experience.
+
+set default-fg                  ""   # Text
+set default-bg                  ""   # Base
+
+set statusbar-fg                ""   # Text
+set statusbar-bg                ""   # Surface
+
+set inputbar-fg                 ""   # Text
+set inputbar-bg                 ""   # Surface
+
+# Notification
+set notification-fg             ""   # Text
+set notification-bg             ""   # Surface
+
+set notification-error-fg       ""   # Text
+set notification-error-bg       ""   # Gold
+
+set notification-warning-fg     ""   # Text
+set notification-warning-bg     ""   # Gold
+
+# Selected text highlight
+set highlight-color             "" # Love    # don't forget to set opacity to 0.2
+set highlight-active-color      "" # Iris    # don't forget to set opacity to 0.2
+
+# Completion
+set completion-fg               ""   # Text
+set completion-bg               ""   # Overlay
+
+set completion-group-fg         ""   # Text
+set completion-group-bg         ""   # Highlight High
+
+set completion-highlight-fg     ""   # Rose
+set completion-highlight-bg     ""   # Highlight Med
+
+# Index
+set index-fg                    ""   # Text
+set index-bg                    ""   # Overlay
+set index-active-fg             ""   # Rose
+set index-active-bg             ""   # Highlight Med
+
+# Recolor
+set recolor-lightcolor          ""   # Base
+set recolor-darkcolor           ""   # Text
+
+set recolor                     "false"
+set recolor-keephue             "false"
