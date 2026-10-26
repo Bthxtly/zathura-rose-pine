@@ -16,22 +16,24 @@
 1. Download the desired theme file.
 2. Copy the contents of the file to `~/.config/zathura/zathurarc`, eg. to install the `rose-pine` theme do:
 ```
-$ cp rose-pine ~/.config/zathura/zathurarc
+$ cp rose-pine.conf ~/.config/zathura/
 ```
+3. Add `include rose-pine.conf` to your `zathurarc`
 
 ## Gallery
 
 The previews are generated with the `recolor` and `recolor-keephue` options set to `"true"`.
 
 Rosé Pine
-![Rosé Pine with Zathura](https://imgur.com/3PzVh5r.png)
+![Rosé Pine with Zathura](./screenshots/rose-pine.png)
 
 Rosé Pine Moon
-![Rosé Pine Moon with Zathura](https://imgur.com/tDSsxsi.png)
+![Rosé Pine Moon with Zathura](./screenshots/rose-pine-moon.png)
 
 Rosé Pine Dawn
-![Rosé Pine Dawn with Zathura](https://imgur.com/zrArXwi.png)
+![Rosé Pine Dawn with Zathura](./screenshots/rose-pine-dawn.png)
 
 ## Thanks to
 
 - [edunfelt](https://github.com/edunfelt)
+- [Bthxtly](https://github.com/Bthxtly)
